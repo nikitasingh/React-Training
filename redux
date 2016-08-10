@@ -32,3 +32,6 @@ use babel-polyfill fro object assignment, since its not supported by babel
 Object.assign(target, ..sources)
 
 Object.assing({}, state,{role: 'admin'})
+
+
+reducers takes old state and returns new state, can also do manipulations etc
