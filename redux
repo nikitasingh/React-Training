@@ -9,3 +9,9 @@ Store is an object that stores entire states of the application
 2)Actions trigger changes, like click,
 
 3) Reducers update state
+
+Every action has type property which tells what type of action, rest of the dataa can be anything/
+
+Reducers takes "store" object and return a new state.
+
+when store gets updated, Reac-Redux communicate it back to react view
