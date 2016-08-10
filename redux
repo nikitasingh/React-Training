@@ -1,1 +1,11 @@
 
+Redux == data
+React == view
+
+React - 3 principles
+1) one immutable object
+Store is an object that stores entire states of the application
+
+2)Actions trigger changes, like click,
+
+3) Reducers update state
