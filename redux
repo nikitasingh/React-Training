@@ -22,4 +22,7 @@ Actions are the evnts happening the in application, plain js object containing d
 
 Actio ->Action creater which creates the js object. they generally have the same name as that of action. (type)
 
-Redux store -> created by caling createStore() at apps anetry point.
+Redux store -> created by caling createStore() at apps anetry point. ONLY one store. dispatch,subscribe,getstatee,replacereducer
+
+Immutability- >
+clarity(since only reducer can change the state),performance,amazing debugging
