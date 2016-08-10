@@ -35,3 +35,9 @@ Object.assing({}, state,{role: 'admin'})
 
 
 reducers takes old state and returns new state, can also do manipulations etc
+
+
+1 store multiple recuderrs,
+
+whenever a store is created redux calls the reucers and uses the return value as initial state, if we have multiple reducers which reducer
+to call when an action is dispatched is based on action type we have in the reducers.
