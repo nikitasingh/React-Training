@@ -34,6 +34,9 @@ Object.assign(target, ..sources)
 Object.assing({}, state,{role: 'admin'})
 
 
+alll reducers are called when an action is called. After passng through each case on reducers a new state is returned
+
+
 reducers takes old state and returns new state, can also do manipulations etc
 
 
