@@ -61,3 +61,5 @@ Connect wraps our component so its connected to redux store
 
 connect(what data to send as props, what props to send to action to send)
 connect(mapstatetoprops, mapdispatchtoprops)
+
+root reducer calls all the reducers, we create this file, import all the reducers inside it
